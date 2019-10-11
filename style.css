@@ -1,0 +1,75 @@
+body {
+    background: #E5E5E5;
+    margin: 0;
+  }
+ h1 {
+    font-size: 36px;
+    line-height: normal;
+  } 
+  .advertising {
+  
+    height: 100px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #000000;
+    background: #EFF5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-main {
+
+  }
+  .header-logo {
+
+  }
+  .header-text {
+    font-family: Roboto;
+    font-size: 16px;
+line-height: 20px;
+max-width: 140px;
+
+  }
+  .header-email{
+    font-family: Roboto;
+    font-size: 16px;
+line-height: 102.8%;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+  }
+  .header-phone{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 102.8%;
+    /* or 16px */
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+  }
+  .header-callback{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 102.8%;
+    /* or 16px */
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+  }
+  .header-menu {
+
+  }
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+  
+  

@@ -1,5 +1,5 @@
 body {
-    background: #E5E5E5;
+    background: #ffffff;
     margin: 0;
   }
  h1 {
@@ -18,9 +18,21 @@ body {
     justify-content: center;
   }
   .header-main {
+    
+
+    height: 115px;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: center;
+  
+  vertical-align: middle;
+    
+   
 
   }
+
   .header-logo {
+    margin: 7px;
 
   }
   .header-text {
@@ -63,13 +75,36 @@ text-decoration-line: underline;
     text-decoration-line: underline;
   }
   .header-menu {
-
+    background: #333333;
+    height: 55px;
   }
 
 .container{
     max-width: 1170px;
     margin: 0 auto;
+    display: flex;
+
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+     align-items: center; 
+     align-content: center;
+     height: 100%;
+     
     
+}
+.footer-menu
+{
+  height: 550px;
+  background: #535353;
+}
+.bigtext
+{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 108.4%;
+color: #FFFFFF
 }
   
   

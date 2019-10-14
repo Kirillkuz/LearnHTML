@@ -7,7 +7,6 @@ body {
     line-height: normal;
   } 
   .advertising {
-  
     height: 100px;
     font-family: Roboto;
     font-size: 18px;
@@ -18,34 +17,25 @@ body {
     justify-content: center;
   }
   .header-main {
-    
-
     height: 115px;
     justify-content: space-between;
     align-items: flex-end;
     align-content: center;
-  
   vertical-align: middle;
-    
-   
-
   }
-
   .header-logo {
     margin: 7px;
-
   }
   .header-text {
     font-family: Roboto;
     font-size: 16px;
 line-height: 20px;
 max-width: 140px;
-
   }
   .header-email{
     font-family: Roboto;
     font-size: 16px;
-line-height: 102.8%;
+line-height: 16px;
 display: flex;
 align-items: center;
 text-decoration-line: underline;
@@ -55,9 +45,7 @@ text-decoration-line: underline;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 102.8%;
-    /* or 16px */
-    
+    line-height: 16px;
     display: flex;
     align-items: center;
     text-decoration-line: underline;
@@ -67,9 +55,7 @@ text-decoration-line: underline;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 102.8%;
-    /* or 16px */
-    
+    line-height: 16px;
     display: flex;
     align-items: center;
     text-decoration-line: underline;
@@ -78,25 +64,28 @@ text-decoration-line: underline;
     background: #333333;
     height: 55px;
   }
-
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    display: flex;
-
     flex-wrap: nowrap;
-    justify-content: space-between; 
-     align-items: center; 
-     align-content: center;
      height: 100%;
-     
-    
+}
+.header-content
+{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  align-content: center;
+  height: 100%;
 }
 .footer-menu
 {
   height: 550px;
   background: #535353;
-  
+}
+.footer-content
+{
+  padding: 100px 0px;
 }
 .bigtext
 {
@@ -110,5 +99,23 @@ align-content: center;
 display: flex;
 justify-content: center; 
 }
-  
-  
+.footer-allinfo
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+  align-content: center;
+}
+.footer-info
+{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+align-items: center;
+display: flex-start;
+
+}
+
